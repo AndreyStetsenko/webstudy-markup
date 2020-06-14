@@ -1,0 +1,23 @@
+{
+  "name": "spark",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "ninjakvas <nth.alexx@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ninjakvas/spark",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.maskedinput": "^1.4.1",
+    "tooltipster": "^4.2.5",
+    "PACE": "pace#^1.0.2"
+  }
+}

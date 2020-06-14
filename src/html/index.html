@@ -1,0 +1,45 @@
+@include('inc/header.html')
+
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-6">
+
+      <div class="home-title">
+        <h1 class="home-title__brand">Andrew St.</h1>
+      </div>
+
+      <div class="home-nav">
+        <ul class="home-nav__menu" id="list-tab" role="tablist">
+          <li><span class="pret">Richest - site №1 in world.</span><a id="list-home-list" data-toggle="list" href="#list-home" aria-controls="home">Richest.pro</a></li>
+          <li><span class="pret">ReStore - store №1 in world.</span><a id="list-profile-list" data-toggle="list" href="#list-profile" aria-controls="profile">ReStore</a></li>
+          <li><span class="pret">Richest - site №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.pro/">Roditeli.ua</a></li>
+          <li><span class="pret">ReStore - store №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.store/">Genaviter.com</a></li>
+          <li><span class="pret">Richest - site №1 in world.</span><a target="_blank" href="http://richest.pro/">Citrus Events</a></li>
+          <li><span class="pret">ReStore - store №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.store/">Pod Potolkom</a></li>
+          <li><span class="pret">Richest - site №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.pro/">Shod Store</a></li>
+          <li><span class="pret">ReStore - store №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.store/">2man Barber</a></li>
+          <li><span class="pret">Richest - site №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.pro/">Viber UA</a></li>
+          <li><span class="pret">ReStore - store №1 in world.</span><a target="_blank" data-toggle="list" href="http://richest.store/">United Art Gallery</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="col-md-4 tabContent">
+      <div class="nav-tabContent" id="nav-tabContent">
+        <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+      </div>
+    </div>
+    <div class="col-md-1 social-home">
+      <ul class="social-links">
+        <li class="social-links__item"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-links__item"><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+@include('inc/footer.html')
